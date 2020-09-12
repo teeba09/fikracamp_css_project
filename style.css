@@ -1,0 +1,119 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background: white;
+  padding: 10px;
+}
+
+#navbar p {
+  font-size: 24px;
+  margin: 0px 10px;
+}
+
+#navbar a {
+  cursor: pointer;
+  margin: 0px 10px;
+}
+
+#navbar a:hover {
+  border-bottom: 1px solid black;
+}
+
+
+
+#banner {
+  position: relative;
+  max-height: 50vh;
+  overflow: hidden;
+  margin-bottom: 1vw;
+}
+
+#banner img {
+  width: 100%;
+}
+
+#banner_text {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+}
+
+#banner_text p {
+  font-weight: bold;
+  font-size: 4vw;
+  color: yellow;
+}
+
+#banner_text span {
+  font-size: 2vw;
+  color: white;
+}
+
+
+
+#cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  justify-items: center;
+}
+
+.card {
+  width: 90%;
+  height: 20vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  height: 35%;
+  background: #aaa;
+}
+
+.card .title {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.card .desc {
+  font-size: 1vw;
+}
+
+.card .info {
+  font-size: 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .info span {
+  color: #aaa;
+}
+
+.card .info a {
+  color: #00a;
+}
+
+
+#footer {
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 1vw;
+  padding: 10px;
+}
+
+#content {
+  /* text-align: center; */
+  width: 90%;
+}
